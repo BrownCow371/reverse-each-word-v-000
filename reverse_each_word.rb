@@ -4,5 +4,5 @@ def reverse_each_word(sentance)
   sent_array.each{|word|
   new_sentance<< "#{word.reverse} "
     }
-    new_sentance
+    new_sentance.chomp
 end
